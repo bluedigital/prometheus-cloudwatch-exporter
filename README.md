@@ -13,7 +13,7 @@ Why another CloudWatch exporter? Mainly 'cause other exporters don't really do a
 
 ## Project Status
 
-This is project is currently on alpha stage and although we intend to keep the API compatibility, it needs to be tested, documented. Fill an issue if you want to contribute! We're actively working on Prometheus and its ecosystem.
+This project is currently on alpha stage and although we intend to keep the API compatibility, it needs to be tested, documented. Fill an issue if you want to contribute! We're actively working on Prometheus and its ecosystem.
 
 ## Installing
 
