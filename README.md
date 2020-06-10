@@ -76,5 +76,6 @@ Now open your browser at [localhost:9016/metrics](http://localhost:9016/metrics)
 - [ ] Test
 - [ ] Documentation
 - [ ] Contributing Guide
+- [ ] [VictoriaMetrics](https://victoriametrics.github.io/#how-to-import-time-series-data) backfill support
 - [ ] Add GitHub Actions Workflow to build, publish SemVer tags and Docker image
 - [ ] Support multiple AWS accounts (each metric should support specific AWS credentials?)
