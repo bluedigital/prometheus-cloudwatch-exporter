@@ -55,7 +55,7 @@ exporter:
           promName: cpu_usage_idle_minimum
           # Use the CW timestamp for metric data point? (default is false)
           timestamp: true
-          # Custom labels to add to Prometheus metric
+          # Custom labels to add to Prometheus metric (key: value)
           customLabels:
             account: XYZ
 ```
@@ -66,7 +66,7 @@ Save the file as **config.yml** and the automagic happens running:
 prometheus-cloudwatch-exporter \
     --aws-access-key-id="YOUR_ACCESS_KEY_ID" \
     --aws-secret-access-key="YOUR_SECRET_ACCESS_KEY" \
-    --config "configs.yml"
+    --config "config.yml"
 ```
 
 Now open your browser at [localhost:9016/metrics](http://localhost:9016/metrics).
